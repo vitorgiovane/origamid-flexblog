@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+  color: #aaa;
+}
+
+.container{
+  background-color: #777;
+  padding:20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.item{
+  background-color: #900;
+  margin:10px;
+  flex: 1;
+}

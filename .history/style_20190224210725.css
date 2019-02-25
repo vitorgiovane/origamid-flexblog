@@ -1,0 +1,11 @@
+body{
+  background-color: black;
+  color: #aaa;
+}
+
+.container{
+  background-color: #777;
+  padding:20px;
+}
+
+.item{}

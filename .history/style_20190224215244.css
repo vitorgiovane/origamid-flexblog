@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+  color: #aaa;
+}
+
+.container{
+  background-color: #777;
+  padding:20px;
+  display: flex;
+  /* flex-direction: row; */
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  /* flex-wrap: wrap-reverse; */
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.item{
+  background-color: #900;
+  margin:10px;
+  flex: 1;
+  font-size: 40px;
+  font-family: sans-serif;
+}
