@@ -12,15 +12,25 @@ body{
   height: 500px;
   margin: auto;
   /* flex-wrap: wrap-reverse; */
-  flex-flow: column wrap;
-  justify-content: flex-start;
-  align-items: flex-end;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
 }
 
 .item{
   background-color: #900;
-  margin:10px;
+  margin:5px;
   /* flex: 1; */
   font-size: 40px;
   font-family: sans-serif;
+  flex-grow:1;
+}
+
+.item-grow2{
+  flex-grow: 5;
+}
+
+.item-grow3{
+  flex-grow: 10;
 }
