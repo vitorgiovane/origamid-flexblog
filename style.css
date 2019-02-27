@@ -14,7 +14,7 @@ body{
   /* flex-wrap: wrap-reverse; */
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   align-content: space-between;
 }
 
@@ -24,7 +24,6 @@ body{
   /* flex: 1; */
   font-size: 40px;
   font-family: sans-serif;
-  flex-grow:1;
 }
 
 .item-grow2{
@@ -33,4 +32,27 @@ body{
 
 .item-grow3{
   flex-grow: 10;
+}
+.flex{
+  flex: 1;
+}
+
+.order1{
+  order: 1
+}
+
+.order2{
+  order: 2
+}
+
+.order3{
+  order: 3
+}
+
+.order0{
+  order: 0
+}
+
+.align-self{
+  align-self: center;
 }
