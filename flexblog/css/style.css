@@ -1,0 +1,49 @@
+body, h1, h2, p, ul, li, a{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Superinfo */
+
+.super-info-bg{
+  background: #122ab2;
+  color: #ffffff;
+}
+
+.super-info{
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.super-info p, .super-info a {
+  margin: 10px;
+}
+
+.super-info a{
+  color: #ffffff;
+}
