@@ -2,23 +2,154 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+  <title>FlexBlog</title>
 </head>
 <body>
-  <div class="container">
-    <div class="item order3" style="padding-top:20px;">Item 1 fdg dfgdf g</div>
-    <div class="item item-grow2 order1 align-self">Item 2</div>
-    <div class="item item-grow3 order0">Item 3</div>
-    <div class="item flex order2">Item 4</div>
-    <!-- <div class="item">Item 5</div>
-    <div class="item">Item 6 sd dfsdf sf</div>
-    <div class="item">Item 7</div>
-    <div class="item">Item 8</div>
-    <div class="item">Item 9</div>
+
+  <div class="super-info-bg">
+    <div class="super-info">
+      <p>Seg / Sex - 08:00 às 18:00</p>
+      <a href="tel:+552199999999">+55 21 9999-9999</a>
+      <p>Av. Ali Perto, 330, Montes Claros - MG</p>
+    </div>
   </div>
-  
+
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="brand">
+        <a href="#">FlexBlog</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#price">Preço</a></li>
+          <li><a href="#quality">Qualidade</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="introduction">Novos valores e<br/>Propriedades de CSS</h1>
+
+  <section id="about" class="about">
+    <div class="about-info">
+      <h1>Sobre</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis pariatur provident sapiente soluta, corrupti saepe doloremque labore, voluptate accusamus, tenetur asperiores culpa eum facere. Omnis ab magni dignissimos reprehenderit ipsa.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis pariatur provident sapiente soluta, corrupti saepe doloremque labore, voluptate accusamus, tenetur asperiores culpa eum facere. Omnis ab magni dignissimos reprehenderit ipsa.</p>
+    </div>
+    <div class="about-img">
+      <img src="img/sobre1.jpg" alt="Sobre 1">
+    </div>
+    <div class="about-img">
+      <img src="img/sobre2.jpg" alt="Sobre 2">
+    </div>
+
+  </section>
+
+  <section id="products" class="products">
+    <h1>Produtos</h1>
+    <div class="products-container">
+      <div class="products-item purple">
+        <h2>Purple</h2>
+        <img src="img/produtos1.jpg" alt="Produto 1">
+      </div>
+      <div class="products-item pink">
+        <h2>Pink</h2>
+        <img src="img/produtos2.jpg" alt="Produto 2">
+      </div>
+      <div class="products-item blue">
+        <h2>Blue</h2>
+        <img src="img/produtos3.jpg" alt="Produto 3">
+      </div>
+    </div>
+  </section>
+
+  <section id="price" class="price">
+    <div class="item-price">
+      <h2>Cobre</h2>
+      <span><sup>R$</sup>19</span>
+      <ul>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <a href="#">Comprar</a>
+    </div>
+    <div class="item-price">
+      <h2>Prata</h2>
+      <span><sup>R$</sup>19</span>
+      <ul>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <li>Comprar exclusiva</li>
+
+      </ul>
+      <a href="#">Comprar</a>
+    </div>
+    <div class="item-price">
+      <h2>Ouro</h2>
+      <span><sup>R$</sup>19</span>
+      <ul>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <li>Comprar exclusiva</li>
+        <li>Download do itens</li>
+      </ul>
+      <a href="#">Comprar</a>
+    </div>
+  </section>
+
+  <section id="quality" class="quality">
+    <div class="quality-item">
+      <h2>Inteligente</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat aut, enim officiis doloremque deleniti dolor totam ex commodi nesciunt pariatur consequatur eaque et magnam asperiores aperiam ratione consectetur modi.</p>
+    </div>
+    <div class="quality-item">
+      <h2>Compacto</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat aut, enim officiis doloremque deleniti dolor totam ex commodi nesciunt pariatur consequatur eaque et magnam asperiores aperiam ratione consectetur modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequuntur quis illo nesciunt nihil dolores quas? Magnam repellat quibusdam laudantium molestiae officia, perferendis possimus hic quo, quaerat quod vero minima!</p>
+    </div>
+    <div class="quality-item">
+      <h2>Econômico</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat aut, enim officiis doloremque deleniti dolor totam ex commodi nesciunt pariatur consequatur eaque et magnam asperiores aperiam ratione consectetur modi.</p>
+    </div>
+    <div class="quality-item">
+      <h2>Transparente</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat aut, enim officiis doloremque deleniti dolor totam ex commodi nesciunt pariatur consequatur eaque et magnam asperiores aperiam ratione consectetur modi.</p>
+    </div>
+    <div class="quality-item">
+      <h2>Sustentável</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat aut, enim officiis doloremque deleniti dolor totam ex commodi nesciunt pariatur consequatur eaque et magnam asperiores aperiam ratione consectetur modi.</p>
+    </div>
+    <div class="quality-item">
+      <h2>Opaco</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat aut, enim officiis doloremque deleniti dolor totam ex commodi nesciunt pariatur consequatur eaque et magnam asperiores aperiam ratione consectetur modi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, illo laboriosam. Est ad, illum quidem atque soluta porro? Numquam, impedit odio ipsam praesentium nobis nulla molestiae maxime consequuntur atque sunt?</p>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter-info">
+      <h1>Newsletter</h1>
+      <p>asine e fique por dentro das novidades</p>
+    </div>
+    <form action="#" class="newsletter-form">
+      <input type="text" placeholder="Seu e-mail">
+      <button type="submit">Assinar</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>FlexBlog - Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
